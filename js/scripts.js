@@ -7,12 +7,16 @@ $(document).ready(function(){
   $("#input").submit(function(event){
     event.preventDefault();
     var number = parseInt(($("#userNumber").val()));
-
-
     var convertedNumbers = (numberToPingPong(number));
 
-    $('#output').text(convertedNumbers);
+    var listResult = function(resultArray) {
+      for (j=0; j < resultArray.length; j++) {
+      $('ul').append("<li>" + resultArray[j] + "</li>");
+      }
+    }
 
+
+    listResult(convertedNumbers);
   });
 });
 
