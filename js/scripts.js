@@ -6,9 +6,13 @@ $(document).ready(function(){
     var convertedNumbers = (numberToPingPong(number));
 
     var listResult = function(resultArray) {
+      if (resultArray <= 0) {
+        return false;
+      }
       for (j=0; j < resultArray.length; j++) {
       $("ul").append("<li>" + resultArray[j] + "</li>");
       }
+      $("#output").show( "slow" );
     }
     listResult(convertedNumbers);
   });
