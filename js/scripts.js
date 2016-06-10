@@ -11,11 +11,9 @@ $(document).ready(function(){
 
     var listResult = function(resultArray) {
       for (j=0; j < resultArray.length; j++) {
-      $('ul').append("<li>" + resultArray[j] + "</li>");
+      $("ul").append("<li>" + resultArray[j] + "</li>");
       }
     }
-
-
     listResult(convertedNumbers);
   });
 });
