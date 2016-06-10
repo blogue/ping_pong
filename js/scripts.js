@@ -6,9 +6,9 @@ $(document).ready(function(){
 
   $("#input").submit(function(event){
     event.preventDefault();
-    var input = ($("#blank").val());
+    var number = parseInt(($("#userNumber").val()));
+    alert(number)
 
-    var output = "";
 
     $('#output').text(output);
 
