@@ -6,7 +6,7 @@
 
 ## Description
 
-This app will take a number from a user and return all numbers between 1 and n. However, if the number is divisible by 15 is will return "pingpong", if it's divisible by 5 it will return 'pong', and if it's divisible by 3 it will return 'ping'.
+This app will take a number from a user and return all numbers between 1 and n. However, if the number is divisible by 15 it will return "pingpong", if it's divisible by 5 it will return 'pong', and if it's divisible by 3 it will return 'ping'.
 
 |Behavior    |Input   |Output   |
 |---|---|---|

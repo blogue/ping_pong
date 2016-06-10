@@ -1,16 +1,13 @@
 $(document).ready(function(){
 
-  $("#input").submit(function(event){
+  $("#user-input").submit(function(event){
     event.preventDefault();
     var number = parseInt(($("#userNumber").val()));
     var convertedNumbers = (numberToPingPong(number));
-
+    $(".result").remove();
     var listResult = function(resultArray) {
-      if (resultArray <= 0) {
-        return false;
-      }
       for (j=0; j < resultArray.length; j++) {
-      $("ul").append("<li>" + resultArray[j] + "</li>");
+      $("ul").append("<li class='result'>" + resultArray[j] + "</li>");
       }
       $("#output").show( "slow" );
     }

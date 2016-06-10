@@ -1,7 +1,9 @@
 h1 {
   font-family: impact;
 }
-
+input {
+  width: 50%;
+}
 #output {
   display: none;
 }
@@ -14,4 +16,19 @@ footer {
    position:fixed;
    bottom:0;
    width:100%;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.jumbotron {
+  background-color: #3E9BE0;
+  border-bottom: solid 1px black;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+#output li {
+  font-size: 15px;
 }
