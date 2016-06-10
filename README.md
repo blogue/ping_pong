@@ -1,13 +1,18 @@
 # Pingpong Project
 
-#### Exercise in using arrays and loops. June 9, 2016
+#### Exercise in using arrays and loops. June 10, 2016
 
 #### By Ben Logue
 
 ## Description
 
-This app will take a number from a user and return all of the numbers. However, if the number is divisible by 15 is will return "pingpong", if it's divisible by 5 it will return 'pong', and if it's divisible by 3 it will return 'ping'.
+This app will take a number from a user and return all numbers between 1 and n. However, if the number is divisible by 15 is will return "pingpong", if it's divisible by 5 it will return 'pong', and if it's divisible by 3 it will return 'ping'.
 
+|Behavior    |Input   |Output   |
+|---|---|---|
+|User inputs a number divisible by 3  |3  |1, 2, ping  |
+|User inputs a number divisible by 5 |5  |1, 2, ping, 4, pong  |
+|User inputs a number divisible by 15 |15 |1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong |
 
 ## Setup/Installation Requirements
 

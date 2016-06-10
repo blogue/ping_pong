@@ -1,7 +1,3 @@
-/*This file is for your custom js.  All yours*/
-
-// Calls input from form-input.html
-
 $(document).ready(function(){
 
   $("#input").submit(function(event){
